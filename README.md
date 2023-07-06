@@ -1,10 +1,5 @@
-
-Simple implementation based on this solution accelerator:
-https://github.com/Azure-Samples/openai/blob/main/End_to_end_Solutions/AOAISearchDemo/notebooks/structured_data_retreival_nltosql.ipynb
-
-
-populate_sql.py : execute this only once to populate database schema and data
-
-nltosql2.ipynb : the notebook to test prompts and NL queries
-
-config.json : store all you secrets
+- nltosql_queries.ipynb : query your data using natural language
+- nltosql_commands.ipynb : update your data using natural language
+- config.json : store all you secrets
+- populate_sql.py : execute this only once to populate database schema and data
+- sql_data/ : records to be inserted in your sql database by populate_sql.py
